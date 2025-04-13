@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Online Code Editor</h1>
+            <a href="#" class="pro-link">PRO ></a>
+        </div>
+        <div class="editor-wrapper">
+            <div class="sidebar">
+                <div class="language-item selected">
+                    <i class="fab fa-js-square"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="language-item">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="language-item">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="language-item">
+                    <i class="fas fa-code"></i>
+                    <span>C++</span>
+                </div>
+                <div class="language-item">
+                    <i class="fas fa-terminal"></i>
+                    <span>C</span>
+                </div>
+                <div class="language-item">
+                    <i class="fab fa-php"></i>
+                    <span>PHP</span>
+                </div>
+                <div class="language-item">
+                    <i class="fas fa-gem"></i>
+                    <span>Ruby</span>
+                </div>
+                <div class="language-item">
+                    <i class="fab fa-swift"></i>
+                    <span>Swift</span>
+                </div>
+                <div class="language-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="language-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+            </div>
+            <div class="editor-main">
+                <div class="editor-header">
+                    <span class="file-name">main.js</span>
+                    <button class="run-btn">Run</button>
+                </div>
+                <div class="editor-container">
+                    <div class="line-numbers"></div>
+                    <textarea id="code" spellcheck="false" placeholder="// JavaScript code"></textarea>
+                </div>
+                <div class="output-container">
+                    <div class="output-header">Output</div>
+                    <div id="result" class="output-content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
